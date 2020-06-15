@@ -14,7 +14,7 @@ stages:
     pool:
       vmImage: 'ubuntu-20.04'
       demands:
-        - npm
+      - npm
 
     variables:
       wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
